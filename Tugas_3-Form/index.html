@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+</head>
+
+<style>
+
+    /* body */
+    * {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+    }
+
+    body, html {
+        height: 100%;
+        font-family: Poppins-Regular, sans-serif;
+    }
+    h1 {
+        color: #333333;
+    }
+
+    /* container */
+    .container {
+        width: 100%;  
+        min-height: 100vh;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background: #f76917;
+        background: -webkit-linear-gradient(45deg, #16e684, #fc714f);
+        background: -o-linear-gradient(45deg, #00dbde, #f55598);
+        background: -moz-linear-gradient(45deg, #00dbde, #ee3d87);
+        background: linear-gradient(45deg, #00dbde, #fc5571);
+    }
+
+    .main-container{
+        width: 500px;
+        background: rgb(195, 255, 247);
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 42px 55px 45px 55px;
+    }
+    .text input{
+        width: 100%;
+        height: 30px;
+    }
+    .input form div {
+        margin-top: 20px;
+    }
+
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="header">
+                <h1>Sign In Coding Class</h1>
+            </div>
+            <div class="input">
+                <form action="">
+                    <div class="text">
+                        <label for="nama">Name</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="text">
+                        <label for="nama">Email address</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="text">
+                        <label for="nama">Password</label><br>
+                        <input type="password">
+                    </div>
+                    <div >
+                        <label for="radio">Gender</label><br>
+                        <input type="radio" id="radio" name="gender" value="Pria">Male
+                        <input type="radio" id="radio" name="gender" value="Wanita">Fimale
+                    </div>
+                    <div>
+                        <label for="cekbox">Language Mastered</label><br>
+                        <input type="checkbox" id="cekbox" name="gender" value="HTML">HTML
+                        <input type="checkbox" id="cekbox" name="gender" value="CSS">CSS
+                        <input type="checkbox" id="cekbox" name="gender" value="Javascript">Javascript
+                    </div>
+                    <div class="text">
+                        <label for="nama">The reasons for joining this class</label><br>
+                        <input type="textarea" style="height: 100px;">
+                    </div>
+
+                    <div class="text" style="margin-top: 50px; background-color: rgb(9, 151, 218); color: rgb(235, 59, 126);">
+                        <input type="submit" value="send" style="background: #f148e3;
+                                                                    background: -webkit-linear-gradient(45deg, #e97558, #e76be9);
+                                                                    background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
+                                                                    background: -moz-linear-gradient(45deg, #2de6b7, #fc00ff);
+                                                                    background: linear-gradient(45deg, #31b7ec, #fc00ff);">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
